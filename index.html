@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Efecto Parallax Asincrona 4</title>
+    <script src="script/script.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <nav id="nav">
+        <div class="header" id="header">
+          <h3 class="header__wordmark" id="wordmark">mater</h3>
+          <button class="header__button" id="button">
+            <i class="fa-solid fa-bars-staggered headerLines"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+      <main>
+        <div class="courtain" id="courtain">
+          <div class="courtainNav">
+            <h3 class="header__wordmark" id="whiteWordmark">mater</h3>
+            <button class="exitButton" id="exitButton">
+              <i class="fa-solid fa-x"></i>
+            </button>
+          </div>
+
+          <div class="list" id="listGrow">
+            <ul class="courtain__list" id="list">
+              <li class="listElement" id="listElement__deploy">Collection</li>
+              <ul class="listDeploy" id="listDeploy">
+                <li class="listDeploy__element" id="listDeploy__element">
+                  Furniture
+                </li>
+                <li class="listDeploy__element">Lighting</li>
+                <li class="listDeploy__element">Accesories</li>
+              </ul>
+              <li class="listElement">Design</li>
+              <li class="listElement">Craftmanship</li>
+              <li class="listElement">Ethics</li>
+            </ul>
+            <div class="img">
+              <img
+                src="recursos/sofa_blanco.png"
+                alt="sofa_blanco"
+                class="whiteSofa"
+                id="whiteSofa"
+              />
+            </div>
+          </div>
+
+          <div class="courtainFooter" id="courtainFooter">
+            <ul class="footer__list" id="footer__list">
+            <span class="spanList">
+              <li class="footer__listElement" id="footer__listElement">
+                About
+              </li>
+              <li class="footer__listElement" id="footer__listElement">
+                Contact
+              </li>
+              <li class="footer__listElement" id="footer__listElement">
+                Dealers
+              </li>
+            </span>
+            <span class="spanList">
+              <li class="footer__listElement" id="footer__listElement">
+                News
+              </li>
+              <li class="footer__listElement" id="footer__listElement">
+                Care
+              </li>
+              <li class="footer__listElement" id="footer__listElement">
+                Press
+              </li>
+            </span>
+            </ul>
+          </div>
+        </div>
+
+        <section class="products" id="prod1">
+
+          <div class="products__info" >
+
+            <p class="products__designer">Michael W.Dreeben</p>
+
+            <p class="products__name">Shell Dining Chair</p>
+
+            <p class="products__txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore impedit consequuntur iure, delectus quasi quam excepturi doloremque.</p>
+
+            <button type="button" class="products__button">Product Details</button>
+          
+          </div>
+          <div class="products__furniture">
+            <img src="recursos/silla_negra.png" alt="Chair" class="products__chair">
+
+
+          </div>
+        </section>
+
+       <section class="products2" id="prod2">
+
+          <div class="products__info">
+
+            <p class="products__designer">Jeaper K.Thomas</p>
+
+            <p class="products__name">Dunes Antharazite Black</p>
+
+            <p class="products__txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore impedit consequuntur iure, delectus quasi quam excepturi doloremque.</p>
+
+            <button type="button" class="products__button">Product Details</button>
+          
+          </div>
+          <div class="products__furniture">
+
+            <img src="recursos/mesa_negra.png" alt="Table" class="products__table">
+
+          </div>
+        </section>
+  </main>
+
+    <footer class="webFooter">
+  
+
+        <button type="button" class="webFooter__button" id="buttonFooter1">01<br>shell Dining Chair</button>
+
+        <button type="button" class="webFooter__button" id="buttonFooter2">02<br>Dunes Antharazite Black</button>
+
+
+    </footer>
+  </body>
+</html>
